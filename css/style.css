@@ -81,7 +81,9 @@ body {
 
 .name {
     font-size: 28px;
+    font-family: "Pacifico", cursive;
     font-weight: bold;
+    font-style: normal;
     background: linear-gradient(90deg, #a855f7 0%, #7c3aed 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
