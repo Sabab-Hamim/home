@@ -227,6 +227,13 @@ body{
   overflow:hidden;
   transition:background 0.4s,border-color 0.4s;
 }
+.now-playing:hover {
+  background: var(--surface2);
+  border-color: var(--border-h);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px var(--glow);
+  cursor: pointer;
+}
 [data-theme="light"] .now-playing{
   box-shadow:0 1px 8px rgba(109,40,217,0.07);
 }
