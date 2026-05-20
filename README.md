@@ -1,4 +1,3 @@
-[README.txt](https://github.com/user-attachments/files/28063458/README.txt)
 ========================================================
   SABAB HAMIM — LINK PROFILE  |  Customisation Guide
 ========================================================
