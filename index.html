@@ -59,6 +59,9 @@
   </div>
 
   <!-- Now Playing -->
+  <audio id="mySong">
+  <source src="images/blindinglights.mp3" type="audio/mpeg">
+  </audio>
   <div class="now-playing" onclick="playSong()">
     <div class="music-icon">♪</div>
     <div class="music-info">
@@ -73,7 +76,17 @@
       <div class="bar"></div>
     </div>
   </div>
-       
+    <script>
+  const song = document.getElementById("mySong");
+
+  function playSong() {
+    if (song.paused) {
+      song.play();
+    } else {
+      song.pause();
+    }
+   }
+   </script>      
   <!-- Social Links -->
   <p class="section-label">Find me on</p>
   <div class="links">
