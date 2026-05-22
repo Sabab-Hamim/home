@@ -429,3 +429,8 @@ body{
 * {
     -webkit-tap-highlight-color: transparent !important;
 }
+
+* {
+    scroll-behavior: smooth !important;
+    transition: all 0.3s ease-in-out;
+}
